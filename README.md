@@ -1,15 +1,10 @@
-# Moringa Project 2
+# Moringa Project 3
 
-<h1>Akan Name Generator</h1>
+<h1>Delani Studio</h1>
 <table>
 <tr>
 <td>
-  <p>This is a webpage that displays an Akan name Generator which functions by calculating the day in a week that someone was born and based on the person's gender outputs their Akan name.</p>
-
-<p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.<p>
-
-<p>To discover your Akan name, visit the webpage and enter the required details.</p>
-
+  <p>This is a webpage that displays a landing page for a fictional studio known as Delani Studio.</p>
 </td>
 </tr>
 </table>
