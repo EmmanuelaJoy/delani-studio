@@ -9,10 +9,17 @@
   background-size: cover;
 }
 
+.content {
+  text-align: center;
+}
+
 .home .home-slider .item .content {
   position: absolute;
-  text-align: center;
   top: 50%;
-  left: 50%;
   transform: translateY(-50%);
+  color: white;
+}
+
+.about-us .about-slider .item .content {
+  padding: 4%;
 }
