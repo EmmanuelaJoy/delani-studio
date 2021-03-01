@@ -14,6 +14,13 @@ $(document).ready(function () {
         $(".product-showing").toggle();
     });
 
+    $(".box img").hover(function () {
+        Image.array.forEach(element => {
+            $(".overlay").show();
+        });
+    }
+
+
     $("#contact").submit(function (event) {
         var name = $("#name").val();
         var email = $("#email").val();
