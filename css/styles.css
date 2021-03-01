@@ -55,3 +55,32 @@ h1 {
 .product-hidden {
   display: none;
 }
+
+#contact {
+  text-align: center;
+  padding-top: 6em;
+}
+
+.form-control {
+  background-color: transparent;
+  border-width: 0.5px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#textarea {
+  margin-top: 30px;
+}
+
+#submitBtn {
+  padding: 0.2em 3em;
+  margin-top: 0.5em;
+  background: grey;
+}
+
+#submitBtn:hover {
+  background: rgb(202, 144, 35);
+}
