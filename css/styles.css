@@ -63,6 +63,11 @@ h1 {
   margin: 5em;
 }
 
+.pimg {
+  visibility: hidden;
+  position: absolute;
+}
+
 h5 {
   border: 1px solid black;
   border-width: 3px;
@@ -70,7 +75,6 @@ h5 {
   background: white;
   color: blue;
   margin: 3rem;
-  display: none;
 }
 
 #contact {
