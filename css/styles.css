@@ -84,3 +84,8 @@ h1 {
 #submitBtn:hover {
   background: rgb(202, 144, 35);
 }
+
+#footer {
+  margin: 10%;
+  text-align: center;
+}
