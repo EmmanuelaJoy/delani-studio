@@ -92,3 +92,8 @@ h1 {
   text-align: center;
   display: inline-flex;
 }
+
+#last-line {
+  text-align: center;
+  margin-top: 2em;
+}
