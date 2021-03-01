@@ -43,3 +43,15 @@ h1 {
 #icons {
   padding-top: 2em;
 }
+
+.design-toggle {
+  display: none;
+}
+
+.development-toggle {
+  display: none;
+}
+
+.product-toggle {
+  display: none;
+}
