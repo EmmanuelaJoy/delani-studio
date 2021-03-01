@@ -40,20 +40,20 @@ To fix a bug or enhance an existing module, follow these steps:
 
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/EmmanuelaJoy/my-first-webpage/issues) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/EmmanuelaJoy/my-first-webpage/issues). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/EmmanuelaJoy/delani-studio/issues). Please include sample queries and their corresponding results.
 
 ## Technologies Used:
 
 - HTML.
 - CSS.
 - Bootstrap framework.
-- JavaScript Programming Language.
+- jQuery.
 
 ## Contact Information
 
 - Email : emmajoy81@gmail.com
 - Phone : +254 725853727
 
-## [License](https://github.com/EmmanuelaJoy/my-portfolio/blob/main/LICENSE)
+## [License](https://github.com/EmmanuelaJoy/delani-studio/blob/main/LICENSE)
 
 MIT © [Emmanuela Joy ](https://github.com/EmmanuelaJoy)
