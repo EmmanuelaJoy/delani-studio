@@ -16,6 +16,7 @@
 
 h1 {
   font-size: larger;
+  padding-top: 3em;
 }
 
 .card-footer {
@@ -31,4 +32,5 @@ h1 {
 
 #services {
   text-align: center;
+  padding-top: 6em;
 }
