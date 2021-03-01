@@ -1,25 +1,9 @@
-.home .home-slider .item {
-  position: relative;
-}
-
-.home .home-slider .item .img {
-  height: 100vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.content {
+.card {
   text-align: center;
-}
-
-.home .home-slider .item .content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   color: white;
 }
 
-.about-us .about-slider .item .content {
-  padding: 4%;
+.card-footer {
+  background-color: transparent;
+  border-radius: none;
 }
