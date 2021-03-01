@@ -64,7 +64,12 @@ h1 {
 
 .box {
   align-items: center;
-  margin: 3em;
+  margin: 4em;
+}
+
+.box img {
+  height: 250px;
+  width: 300px;
 }
 
 .project {
@@ -87,12 +92,14 @@ h1 {
 }
 
 h5 {
-  border: 1px solid white;
-  border-width: 5px;
-  padding: 6rem 6rem;
+  border: 5px solid white;
+  padding-bottom: 120px;
+  padding-right: 120px;
   color: white;
   font-size: 30px;
+  font-weight: bold;
   margin: 0;
+  text-align: center;
 }
 
 /*end of whatWeDo section*/
