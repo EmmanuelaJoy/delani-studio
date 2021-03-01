@@ -19,12 +19,12 @@ $(document).ready(function () {
         $(this).stop().animate({
             opacity: .4
         }, 200);
-        $('#work-' + this.id).css('visibility', 'visible');
+        $('#work-' + this.id).css('display', 'flex');
     }, function () {
         $(this).stop().animate({
             opacity: 1
         }, 500);
-        $('#work-' + this.id).stop().css('visibility', 'hidden');
+        $('#work-' + this.id).stop().css('display', 'none');
     });
 
 

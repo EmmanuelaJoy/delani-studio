@@ -10,15 +10,21 @@
 }
 
 #intro {
-  padding: 5em;
+  padding-top: 5em;
   position: relative;
-  top: 20%;
+  top: 15%;
 }
 
 h1 {
   padding-top: 1.5em;
   line-height: 80px;
   font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#card-content {
+  padding-inline: 16rem;
 }
 
 .card-footer {
@@ -39,7 +45,7 @@ h1 {
 
 #whatWeDo {
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 #icons {
@@ -60,7 +66,7 @@ h1 {
 
 .box {
   align-items: center;
-  margin: 5em;
+  margin: 3em;
 }
 
 h5 {
@@ -70,12 +76,13 @@ h5 {
   background: white;
   color: blue;
   margin: 3rem;
-  visibility: hidden;
+  display: none;
   position: absolute;
 }
 
 #contact {
   margin-top: 3em;
+  display: block;
 }
 
 .form-control {
@@ -95,7 +102,7 @@ h5 {
 
 #submitBtn {
   padding: 0.5em 2em;
-  margin-top: 4em;
+  margin-top: 2em;
   background: rgb(76, 126, 173);
 }
 
