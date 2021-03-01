@@ -15,19 +15,6 @@ $(document).ready(function () {
     });
 
 
-    $('.item').hover(function () {
-        $(this).stop().animate({
-            opacity: .4
-        }, 200);
-        $('#work-' + this.id).css('display', 'flex');
-    }, function () {
-        $(this).stop().animate({
-            opacity: 1
-        }, 500);
-        $('#work-' + this.id).stop().css('display', 'none');
-    });
-
-
     $("#submitBtn").click(function (event) {
         let name = $("#name").val();
         let email = $("#email").val();
