@@ -4,11 +4,13 @@
   text-align: center;
 }
 
+/*all cards*/
 .card {
   text-align: center;
   color: white;
 }
 
+/*landing-page card-title*/
 #intro {
   padding-top: 5em;
   position: relative;
@@ -23,28 +25,24 @@ h1 {
   letter-spacing: 1px;
 }
 
-#card-content {
-  padding-inline: 16rem;
-}
-
 .card-footer {
   background-color: transparent;
   border: transparent;
   margin-top: 300px;
 }
+/*end of landing page*/
 
 #about-us {
-  text-align: center;
   padding: 3em;
 }
 
 #services {
-  text-align: center;
   padding-top: 6em;
 }
 
+/*start of whatWeDo section*/
+
 #whatWeDo {
-  text-align: center;
   margin-top: 2em;
 }
 
@@ -97,19 +95,27 @@ h5 {
   text-align: left;
 }
 
+/*end of whatWeDo section*/
+
+/*contact form*/
+
 #contact {
   margin-top: 3em;
   display: block;
+}
+
+#card-content {
+  padding-inline: 16rem;
+}
+
+#contactForm ::placeholder {
+  color: white;
 }
 
 .form-control {
   background: transparent;
   border-width: 0.5px;
   text-align: left;
-  color: white;
-}
-
-#contactForm ::placeholder {
   color: white;
 }
 
@@ -127,6 +133,10 @@ h5 {
   background: rgb(202, 144, 35);
 }
 
+/*end of contact form*/
+
+/*start of footer*/
+
 #footer {
   margin-left: 8%;
   margin-top: 2em;
@@ -136,6 +146,8 @@ h5 {
 #last-line {
   margin-top: 2em;
 }
+
+/*end of footer*/
 
 @media screen and (min-width: 480px) {
 }
