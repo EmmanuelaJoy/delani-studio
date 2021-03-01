@@ -85,6 +85,10 @@ h5 {
   color: white;
 }
 
+#contactForm ::placeholder {
+  color: white;
+}
+
 #textArea {
   margin-top: 30px;
 }
