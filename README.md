@@ -20,7 +20,7 @@ No set-up instructions at the moment.
 
 ## Demo
 
-Here is a working live demo : https://emmanuelajoy.github.io/akan-name-generator/
+Here is a working live demo : https://emmanuelajoy.github.io/delani-studio/
 
 ### Development
 

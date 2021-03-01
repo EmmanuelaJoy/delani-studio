@@ -14,8 +14,13 @@ $(document).ready(function () {
         $(".product-showing").toggle();
     });
 
+    $("#contact").submit(function (event) {
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var text = $("#textArea").val();
 
-
-
-
+        event.preventDefault();
+        alert("Thank you " + name + " we have received your feedback!");
+        $("form-row").trigger("reset");
+    });
 });
