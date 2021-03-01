@@ -75,11 +75,11 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 .item:hover img {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .item:hover .project {
@@ -88,11 +88,11 @@ h1 {
 
 h5 {
   border: 1px solid white;
-  border-width: 3px;
+  border-width: 5px;
   padding: 6rem 6rem;
   color: white;
+  font-size: 30px;
   margin: 0;
-  text-align: left;
 }
 
 /*end of whatWeDo section*/

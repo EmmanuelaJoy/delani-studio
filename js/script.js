@@ -24,7 +24,7 @@ $(document).ready(function () {
             alert("Please fill in all the form details first");
         } else {
             $("#contactForm").trigger("reset");
-            alert("Thank you " + name + "! " + "We have received your feedback and will get back to you shortly.");
+            alert("Thank you " + name + "! " + "We have received your feedback. One of our agents will get back to you shortly.");
         };
     });
 
