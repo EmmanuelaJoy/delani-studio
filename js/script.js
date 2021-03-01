@@ -15,13 +15,16 @@ $(document).ready(function () {
     });
 
 
-    $("#contact").submit(function (event) {
-        var name = $("#name").val();
-        var email = $("#email").val();
-        var text = $("#textArea").val();
-
-        event.preventDefault();
-        alert("Thank you " + name + " we have received your feedback!");
+    $("#submitBtn").click(function (event) {
+        let name = $("#name").val();
+        let email = $("#email").val();
+        let message = $("#textArea").val();
+        if (name == '' || email == '' || message == '') {
+            event.preventDefault();
+            alert("Please fill in the form first");
+        } else {
+            alert("Thank you " + name + " we have received your feedback and will get back to you shortly");
+        };
         $("form-row").trigger("reset");
     });
 });
