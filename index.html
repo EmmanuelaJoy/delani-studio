@@ -73,9 +73,11 @@
             <h4>WHAT WE DO</h4>
             <div class="row" id="icons">
                 <div class="col-md-4">
-                    <img class="design-clickable" src="./images/services-icons/design_icon.png" alt="design">
-                    <p>DESIGN</p>
-                    <div class="design-toggle">
+                    <div class="design-clickable design-showing">
+                        <img src="./images/services-icons/design_icon.png" alt="design">
+                        <p>DESIGN</p>
+                    </div>
+                    <div class="design-clickable design-hidden">
                         <h4>DESIGN</h4>
                         <p>Our design practice offers a full range of services including brand strategy, interaction and
                             visual design and user experience testing.</p>
@@ -88,7 +90,7 @@
                 <div class="col-md-4">
                     <img class="development-clickable" src="./images/services-icons/dev_icon.png" alt="development">
                     <p>DEVELOPMENT</p>
-                    <div class="development-toggle">
+                    <div class="hidden" id="development-hidden">
                         <h4>DEVELOPMENT</h4>
                         <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                         </p>
@@ -101,7 +103,7 @@
                     <img class="product-clickable" src="./images/services-icons/product_icon.png"
                         alt="product management">
                     <p>PRODUCT MANAGEMENT</p>
-                    <div class="product-toggle">
+                    <div class="hidden" id="product-hidden">
                         <h4>PRODUCT MANAGEMENT</h4>
                         <p>Planning and development is iterative. Because we are constantly coding and testing, the
                             products

@@ -44,14 +44,6 @@ h1 {
   padding-top: 2em;
 }
 
-.design-toggle {
-  display: none;
-}
-
-.development-toggle {
-  display: none;
-}
-
-.product-toggle {
+.design-hidden {
   display: none;
 }
