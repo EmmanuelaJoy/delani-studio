@@ -75,8 +75,6 @@ h1 {
 }
 
 /*hover style achieved with css
-
-
 .box img {
   height: 250px;
   width: 300px;
@@ -171,5 +169,14 @@ h1 {
 
 /*end of footer*/
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1000px) {
+  #intro {
+    color: black;
+  }
+  .card {
+    color: black;
+  }
+  #icons {
+    display: inline-block;
+  }
 }

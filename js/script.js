@@ -13,33 +13,18 @@ $(document).ready(function () {
         $(".product-hidden").toggle();
         $(".product-showing").toggle();
     });
-    /*
-        $('.item').hover(function () {
-            $(this).stop().animate({
-                opacity: .4
-            }, 200);
-            $('#project-' + this.id).css('visibility', 'visible');
-        }, function () {
-            $(this).stop().animate({
-                opacity: 1
-            }, 500);
-            $('#project-' + this.id).stop().css('visibility', 'hidden');
-        }); */
 
-
-    $(".item").mouseover(function () {
+    $(".item").hover(function () {
         $(this).stop().animate({
             opacity: .4
         }, 200);
-        $(".project").css('visibility', 'visible');
-    });
-    $(".item").mouseout(function () {
+        $('.project').css('visibility', 'visible');
+    }, function () {
         $(this).stop().animate({
             opacity: 1
         }, 500);
-        $(".project").stop().css('visibility', 'hidden');
+        $('.project').css('visibility', 'hidden');
     });
-
 
     $("#submitBtn").click(function (event) {
         let name = $("#name").val();
