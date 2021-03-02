@@ -49,6 +49,7 @@ h1 {
 
 #icons {
   padding-top: 2em;
+  align-items: center;
 }
 
 .design-hidden {
@@ -67,6 +68,14 @@ h1 {
   align-items: center;
   margin: 4em;
 }
+
+.item {
+  margin-block: 3em;
+  position: relative;
+}
+
+/*hover style achieved with css
+
 
 .box img {
   height: 250px;
@@ -90,9 +99,9 @@ h1 {
 
 .item:hover .project {
   opacity: 1;
-}
+} */
 
-h5 {
+.project {
   border: 5px solid white;
   padding-bottom: 120px;
   padding-right: 120px;
@@ -101,6 +110,11 @@ h5 {
   font-weight: bold;
   margin: 0;
   text-align: center;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*end of whatWeDo section*/
